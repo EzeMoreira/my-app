@@ -6,9 +6,9 @@ function BarraNav(){
         <div>
             <nav>
                 <ul>
-                    <li><a href="./"></a>Inicio</li>
-                    <li><a href="./"></a>Registro</li>
-                    <li><a href="./"></a>Login</li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="/register">Registro</a></li>
+                    <li><a href="/login">Login</a></li>
                 </ul>
             </nav>
         </div>
