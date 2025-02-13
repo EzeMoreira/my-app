@@ -1,0 +1,21 @@
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size:x-large;
+    font-family: monospace;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a:hover {
+    color: aqua;
+}
