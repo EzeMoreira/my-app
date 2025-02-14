@@ -1,13 +1,14 @@
 import './App.css';
 import Home from './paginas/Home';
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import Rutas from './components/Rutas';
 
 function App() {
 
   return (
-    <div className="App">
-        <h1>Práctica</h1> 
-        <Home/>
-    </div>
+      <Router>
+	        <Rutas />
+      </Router>
   );
 }
 
