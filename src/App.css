@@ -31,3 +31,8 @@ a{
   color: white;
   text-decoration: none;
 }
+
+Nav ul{
+  padding: 15px;
+  text-align: center;
+}

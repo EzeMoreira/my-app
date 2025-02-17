@@ -1,6 +1,6 @@
 import './App.css';
 import { Route, Routes, BrowserRouter as Router, Link } from 'react-router-dom';
-
+import cartel from "./cartelNav.png"
 function App() {
 
   return (
@@ -19,6 +19,7 @@ function App() {
                 </Link>
               </ul>
             </nav>
+            <img src={cartel} className="AppLogo" alt="Cartel-de-juego"/>
           </div>
       </Router>
   );
