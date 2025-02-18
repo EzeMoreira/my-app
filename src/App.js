@@ -13,19 +13,20 @@ function App() {
 	        <div className="App">
             <nav>
               <ul>
-                <Link to="/" element={<Home />} class="list">
+                <Link to="/" element={<Home />} className="list">
                   Home
                 </Link>
-                <Link to="/Registro" element={<Loguearse />} class="list">
+                <Link to="/Registro" element={<Loguearse />} className="list">
                   Registro
                 </Link>
-                <Link to="/Loguearse" element={<Registro />} class="list">
+                <Link to="/Loguearse" element={<Registro />} className="list">
                   Loguearse
                 </Link>
               </ul>
             </nav>
             <img src={cartel} className="AppLogo" alt="Cartel-de-juego"/>
           </div>
+          <Registro />
       </Router>
   );
 }
