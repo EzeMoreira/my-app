@@ -1,6 +1,9 @@
 import './App.css';
 import { Route, Routes, BrowserRouter as Router, Link } from 'react-router-dom';
 import cartel from "./cartelNav.png"
+import Home from './paginas/Home';
+import Loguearse from './paginas/Loguearse';
+import Registro from './paginas/Registro';
 function App() {
 
   return (
@@ -8,13 +11,13 @@ function App() {
 	        <div className="App">
             <nav>
               <ul>
-                <Link to="/" class="list">
+                <Link to="/" element={<Home />} class="list">
                   Home
                 </Link>
-                <Link to="/Registro" class="list">
+                <Link to="/Registro" element={<Loguearse />} class="list">
                   Registro
                 </Link>
-                <Link to="/Loguearse" class="list">
+                <Link to="/Loguearse" element={<Registro />} class="list">
                   Loguearse
                 </Link>
               </ul>
