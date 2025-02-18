@@ -27,6 +27,15 @@
   justify-content: center;
 }
 
+h1 {
+  text-align: center;
+  margin: 0%;
+  padding: 10px 15px 15px;
+  background-color: #667ba7;
+  color: white;
+  font-family: monospace;
+}
+
 a{
   color: white;
   text-decoration: none;

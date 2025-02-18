@@ -8,6 +8,7 @@ function App() {
 
   return (
       <Router>
+          <h1>Games zone</h1>
 	        <div className="App">
             <nav>
               <ul>
