@@ -4,6 +4,7 @@ import cartel from "./cartelNav.png"
 import Home from './paginas/Home';
 import Loguearse from './paginas/Loguearse';
 import Registro from './paginas/Registro';
+
 function App() {
 
   return (
