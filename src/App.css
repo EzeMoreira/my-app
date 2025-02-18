@@ -66,6 +66,12 @@ Nav ul{
   border-bottom: 2px solid black;
   font-family: Arial, Helvetica, sans-serif;
   background-color: grey;
+  animation: anima 2s infinite alternate ease-in-out
+}
+
+@keyframes anima{
+  0%{transform:rotateX(0);}
+  100%{transform:rotateX(90deg);}
 }
 
 form {
