@@ -59,10 +59,21 @@ Nav ul{
   100%{transform:rotateY(90deg);}
 }
 
+.formulario{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+}
+
 form {
   text-align: center;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   background-color: grey;
+  padding-top	: 20px;
+  padding-bottom: 20px;
 }
 
