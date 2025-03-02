@@ -4,7 +4,7 @@ function Loguearse() {
 
     return(
         <>
-        <h1 class="formulario">Loguearse</h1>
+        <h1 class="login">Loguearse</h1>
         <div>
             <form action="#" method="GET">
                 <label> <br/>

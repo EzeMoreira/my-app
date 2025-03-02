@@ -27,6 +27,7 @@ function App() {
             </nav>
             <img src={cartel} className="AppLogo" alt="Cartel-de-juego"/>
           </div>
+          <Loguearse/>
           <Registro />
           <Footer/>
       </Router>
