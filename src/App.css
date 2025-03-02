@@ -83,3 +83,10 @@ form {
   padding-bottom: 20px;
 }
 
+.footer{
+  text-align: center;
+  padding: 100px;
+  background-color: #46577a;
+  color: white;
+  border: 10px solid #667ba7;
+}
