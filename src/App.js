@@ -4,6 +4,7 @@ import cartel from "./cartelNav.png"
 import Home from './paginas/Home';
 import Loguearse from './paginas/Loguearse';
 import Registro from './paginas/Registro';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
             <img src={cartel} className="AppLogo" alt="Cartel-de-juego"/>
           </div>
           <Registro />
+          <Footer/>
       </Router>
   );
 }
