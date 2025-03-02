@@ -34,8 +34,7 @@
   background-color: #667ba7;
   color: white;
   font-family: monospace;
-  border-radius: 50%;
-  animation: anim 1.5s infinite alternate ease-in-out
+  animation: anim 2s infinite alternate ease-in-out
 }
 
 a{
