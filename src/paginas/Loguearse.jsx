@@ -3,9 +3,23 @@ import React from "react";
 function Loguearse() {
 
     return(
+        <>
+        <h1 class="formulario">Loguearse</h1>
         <div>
-            <h1>Login</h1>
+            <form action="#" method="GET">
+                <label> <br/>
+                    correo electronico <br/>
+                    <input type="email" name="email" required/>
+                </label> <br/> 
+                <label> <br/>
+                    Password 
+                    </label> <br/>
+                    <input type="password" name="password" placeholder="password" required />
+                    <br/>  <br/>
+                    <button type="submit" />
+            </form>
         </div>
+        </>
     );
 }
 
