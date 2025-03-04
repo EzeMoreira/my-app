@@ -4,7 +4,7 @@ function Producto(){
 
     return(
         <div>
-            <h1>Soy un producto</h1>
+            <h2>Soy un producto</h2>
         </div>
     )
 }
