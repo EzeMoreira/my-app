@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from "react";
 import { getAllProductos } from "../servicios/ProductoServicio";
+import Producto from "./Producto";
 
 function Productos(){
     
@@ -28,14 +29,12 @@ function Productos(){
 } else {
     return (
         <>
-        <h1 id="titulo">{titulo}</h1>
         {Productos.map((producto) =>
         <Producto
             id={producto.id}
             imagen={producto.thumbnail}
             nombre={producto.title}
             precio={producto.price}
-            categoria=""
         />
         )}
         </>
