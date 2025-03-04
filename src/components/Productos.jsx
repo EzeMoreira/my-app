@@ -8,11 +8,11 @@ function Productos(){
     useEffect(() => {
         const request = async () => {
             try {
-                const querySnapshot = await getAllProductos();
-                console.log(querySnapshot.docs);
-                setProductos(querySnapshot.docs);
-        }   catch (e) {
-            console.log(e);
+                const response = await getAllProductos();
+                console.log(response);
+                setProductos(response.results);
+        }   catch (evento) {
+            console.log(evento);
         }
     };
     request();
