@@ -73,6 +73,21 @@ Nav ul{
   100%{transform:rotateX(90deg);}
 }
 
+label {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+input {
+  background-color: black;
+  color: whitesmoke;
+  font-family: monospace;
+  font-size: large;
+  border: 3px solid whitesmoke;
+  border-radius: 15px;
+}
+
 form {
   text-align: center;
   font-size: large;

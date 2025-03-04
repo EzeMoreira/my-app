@@ -8,8 +8,8 @@ function Loguearse() {
         <div>
             <form action="#" method="GET">
                 <label> <br/>
-                    correo electronico <br/>
-                    <input type="email" name="email" required/>
+                    Correo electronico <br/>
+                    <input type="email" name="email" placeholder="Correo electronico" required/>
                 </label> <br/> 
                 <label> <br/>
                     Password 
