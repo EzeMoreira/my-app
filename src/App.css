@@ -137,3 +137,13 @@ button:hover {
   color: white;
   border: 10px solid #667ba7;
 }
+
+.contenedorProducto {
+  border: 2px solid black;
+  display: inline-block;
+  width: 500px;
+  margin: 15px;
+  background-color: rgb(12, 12, 105);
+  color: whitesmoke;
+  text-align: center;
+}
