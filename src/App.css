@@ -149,6 +149,12 @@ button:hover {
   border-radius: 12px;
 }
 
+.nombreYprecio{
+  background-color: brown;
+  color: whitesmoke;
+  padding: 15px;
+}
+
 .contenedorProducto img{
   padding: 25px;
 }
