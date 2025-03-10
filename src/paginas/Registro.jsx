@@ -20,7 +20,7 @@ function Registro(){
                     </label> <br/>
                     <input type="password" name="password" placeholder="password" required />
                     <br/> <br/>  
-                    <button type="submit">Enviar</button>
+                    <button id="botonComprar" type="submit">Enviar</button>
             </form>
         </div>
         </>
