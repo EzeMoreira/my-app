@@ -169,3 +169,10 @@ button:hover {
   color: black;
   font-weight: bolder;
 }
+
+#textoCompro{
+  background-color: black;
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 15px;
+}
