@@ -1,10 +1,12 @@
 import React from "react";
 
-function Producto(props){
+function Producto({id, imagen, nombre, precio}){
 
     return(
         <div>
-            <h1>Soy un {props.nombre}</h1>
+            <img src={imagen} alt="Imagen del producto" />
+            <h2>{nombre}</h2>
+            <h3>AR${precio}</h3>
         </div>
     )
 }
