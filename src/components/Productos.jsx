@@ -29,7 +29,7 @@ function Productos(){
 } else {
     return (
         <>
-        {Productos.map((producto) =>
+        {Productos.slice(0,10).map((producto) =>
         <Producto
             id={producto.id}
             imagen={producto.thumbnail}

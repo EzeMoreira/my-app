@@ -1,10 +1,10 @@
 import React from "react";
 
-function Producto(){
+function Producto(props){
 
     return(
         <div>
-            <h2>Soy un producto</h2>
+            <h1>Soy un {props.nombre}</h1>
         </div>
     )
 }
