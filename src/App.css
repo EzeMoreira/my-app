@@ -18,6 +18,10 @@
   color: #61dafb;
 }
 
+body{
+  background-color: yellow;
+}
+
 .App{
   background-color: #46577a;
   color: white;
