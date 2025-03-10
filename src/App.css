@@ -158,3 +158,14 @@ button:hover {
 .contenedorProducto img{
   padding: 25px;
 }
+
+#botonComprar{
+  margin-bottom: 25px;
+}
+
+#botonComprar:hover{
+  border: 2px solid black;
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bolder;
+}
