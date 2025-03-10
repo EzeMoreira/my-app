@@ -14,7 +14,7 @@ function Producto({id, imagen, nombre, precio}){
             <h3>AR${precio}</h3>
             </div> <br />
             <div> {comprar} </div>
-            <button onClick={handleComprar}>Comprar</button>
+            <button id="botonComprar" onClick={handleComprar}>Comprar</button>
         </div>
     )
 }
