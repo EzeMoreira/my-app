@@ -1,8 +1,8 @@
 .contenedorProducto {
     border: 2px solid black;
     display: inline-block;
-    width: 300px;
-    margin: 15px;
+    width: 250px;
+    margin: 25px;
     background-color: rgb(12, 12, 105);
     color: whitesmoke;
     text-align: center;
