@@ -5,7 +5,7 @@ import Producto from "./Producto";
 function Productos(){
     
     const [loading, setLoading] = useState(true);
-    const [Productos, setProductos] = useState();
+    const [productos, setProductos] = useState([]);
     const [buscar, setBuscar] = useState("Iphone");
 
     useEffect(() => {
@@ -46,14 +46,25 @@ function Productos(){
             <br />
         </div>
         
-        {Productos.slice(0, 8).map((producto) =>
+        {(productos || []).slice(0, 8).map(producto => 
+    <Producto
+        key={producto.id} // Agregar una key para evitar warnings
+        id={producto.id}
+        imagen={producto.thumbnail}
+        nombre={producto.title}
+        precio={producto.price}
+    />
+)}
+
+
+        {/* {(Productos || []).slice(0, 8).map(producto => 
         <Producto
             id={producto.id}
             imagen={producto.thumbnail}
             nombre={producto.title}
             precio={producto.price}
         />
-        )}
+        )} */}
         </>
     );
 }
