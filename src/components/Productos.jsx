@@ -46,7 +46,7 @@ function Productos(){
             <br />
         </div>
         
-        {Productos.slice(0,10).map((producto) =>
+        {Productos.slice(0, 8).map((producto) =>
         <Producto
             id={producto.id}
             imagen={producto.thumbnail}
