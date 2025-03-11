@@ -4,9 +4,9 @@ function Registro(){
 
     return(
         <>
-            <h1 class="formulario">Registrate para novedades</h1>
-        <div>
-        <form action="#" method="GET">
+            <h1 class="formulario">Registrate</h1>
+            <div className="registro">
+                <form action="#" method="GET">
                 <label>
                     Nombre completo: <br/>
                     <input type="text" name="name" placeholder="Nombre Completo"required/>
