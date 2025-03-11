@@ -42,8 +42,8 @@ function Productos(){
             name="buscar"
             value={buscar}
             onChange={handleChange}
-            placeholder="buscar" 
-            /> <br />
+            placeholder="buscar" /> 
+            <br />
         </div>
         
         {Productos.slice(0,10).map((producto) =>

@@ -1,7 +1,7 @@
 import React from "react";
-import Home from "../paginas/Home";
 import Loguearse from "../paginas/Loguearse";
 import Registro from "../paginas/Registro";
+import Home from "../paginas/Home";
 import {Routes, Route} from 'react-router-dom'
 
 function Rutas(){

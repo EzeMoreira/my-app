@@ -1,15 +1,16 @@
 import './App.css';
-import { Route, Routes, BrowserRouter as Router, Link } from 'react-router-dom';
-import cartel from "./cartelNav.png"
+import {BrowserRouter as Router, Link } from 'react-router-dom';
+import Registro from './paginas/Registro';
 import Home from './paginas/Home';
 import Loguearse from './paginas/Loguearse';
-import Registro from './paginas/Registro';
+import cartel from "./cartelNav.png";
+import Rutas from './components/Rutas';
 import Footer from './components/Footer';
 
 function App() {
 
   return (
-      <Router>
+      <Router>  
           <h1 class="box">Games zone</h1>
 	        <div className="App">
             <nav>
@@ -27,8 +28,7 @@ function App() {
             </nav>
             <img src={cartel} className="AppLogo" alt="Cartel-de-juego"/>
           </div>
-          <Loguearse/>
-          <Registro />
+          <Rutas/>
           <Footer/>
       </Router>
   );
