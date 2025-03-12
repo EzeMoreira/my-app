@@ -161,6 +161,11 @@ button:hover {
   font-weight: 500;
 }
 
+#buscador{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 .footer{
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
