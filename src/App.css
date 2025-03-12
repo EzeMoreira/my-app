@@ -68,9 +68,15 @@ img{
 }
 
 .list {
-  padding: 10px;
+  margin: 10px;
   font-size: large;
   font-family: monospace;
+  border-bottom: 2px solid rgb(172, 158, 158);
+}
+
+.list:hover {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @keyframes anim{
