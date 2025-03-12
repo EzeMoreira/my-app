@@ -161,10 +161,10 @@ button:hover {
 
 .footer{
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 100px;
-  background-color: #46577a;
   color: white;
-  border: 10px solid #667ba7;
+  border: 4px dashed white;
 }
 
 .contenedorProducto {
