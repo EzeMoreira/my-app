@@ -97,21 +97,21 @@ h1{
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #46577a;
 }
 
 label {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
 }
 
 input {
-  background-color:#667ba7;
-  color: whitesmoke;
-  font-family: monospace;
-  font-size: large;
+  background-color:black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
   border: 2px solid whitesmoke;
   border-radius: 15px;
   text-align: center;
@@ -121,13 +121,14 @@ input:hover {
   background-color: #667ba7;
   color: whitesmoke;
   border: 2px solid whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 form {
   text-align: center;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #46577a;
   padding-top	: 20px;
   padding-bottom: 20px;
 }

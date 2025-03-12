@@ -10,17 +10,17 @@ function Registro() {
                 <form action="#" method="GET">
                     <label>
                         Nombre:
-                    </label><br />
+                    </label> <br />
                     <input type="text" name="name" required placeholder="Nombre"/><br />
-                    <label>
+                    <label> <br />
                         Email:
                     </label><br />
                     <input type="email" name="email" required placeholder="email"/><br />
-                    <label>
+                    <label> <br />
                         Password:
                     </label><br />
                     <input type="password" name="password" placeholder="password" required />
-                    <br />
+                    <br /> <br />
                     <button type="submit" value="Submit" id="botonComprar">Enviar</button><br />
                 </form>
             </div>
