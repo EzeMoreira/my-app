@@ -79,6 +79,14 @@ img{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h1{
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 @keyframes anim{
   0%{transform:rotateY(0);}
   100%{transform:rotateY(90deg);}
@@ -92,11 +100,6 @@ img{
   font-family: Arial, Helvetica, sans-serif;
   background-color: grey;
   animation: anima 2s infinite alternate ease-in-out
-}
-
-@keyframes anima{
-  0%{transform:rotateX(0);}
-  100%{transform:rotateX(90deg);}
 }
 
 label {
